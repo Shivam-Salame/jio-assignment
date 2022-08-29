@@ -19,7 +19,7 @@ int main(){
             }
         }
     }
-    if( absent > 2 || late > 3 )
+    if( absent > 2 || late >= 3 )
         cout<<"False";
         
     else cout<<"True";
